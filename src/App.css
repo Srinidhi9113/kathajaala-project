@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap');
+body{
+    padding: 0px 0px 0px 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbarItems{
+    color:white;
+    text-decoration: none;
+    transition: 0.6s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbarItems:hover{
+    transition: 0.6s;
+    font-size: 1.1em;
+    color:#ee6462
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.navbarlistItem{
+    padding-left:20px ;
+    font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title{
+    padding: 40px;
+    background-color:#471616;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    display: flex;
+    justify-content:center;
+    color:azure;
 }
